@@ -1,3 +1,31 @@
+/* Style for main top menu */
+
+#topmenu {
+    display:block;
+}
+
+.topmenubutton {
+    display: inline-block;
+    background-color:pink; 
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.topmenubutton a {
+    color:maroon; 
+    transition: 1s;
+    text-decoration: none;
+}
+
+.topmenubutton a:hover, .topmenubutton a:focus {
+    color:black; 
+    font-size: 22px;
+}
+
+/* Style for dropdown menu */
+
 .dropbtn {
     background-color:aqua; 
     color:black;
